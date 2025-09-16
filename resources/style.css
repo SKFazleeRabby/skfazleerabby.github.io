@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color:black;
+}
+
+body {
+  background-color: #FFFFE9;
+}
+
+.navbar.navbar-expand-lg.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-brand{
+    font-family: 'MonteCarlo';
+    border: 2px solid black;
+    padding: 10px 15px 10px 10px;
+    font-size: 30px;
+}
+
+.navbar li a {
+  color: var(--primary-color);
+  font-size: 20px;
+  padding: 10px 25px !important;
+  /* font-weight: bold; */
+  font-family: "Lexend";
+}
+
+.navbar li a:hover{
+    color: blue;
+}
+
+.nav-link.active{
+    color: blue !important;
+}
+
+#profile-img{
+    width: 75%;
+}   
+
+main .main-content{
+    padding: 5%;
+    font-family: 'Montserrat';
+}
+
+main .main-content h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+main .main-content h4{
+    font-size: 1.3rem;
+}
+
+main .main-content p{
+    margin-top: 30px;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+}
+
+main .main-content a{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+main .main-content a.button-left{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    padding: 15px 25px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+main .main-content a.button-left:hover{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+
+}
+
+main .main-content a.button-right{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+    padding: 15px 25px;
+    margin-right: 10px;
+
+}
+
+main .main-content a.button-right:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: all 0.2s ease-in-out;
+}
+
+main .main-content .social-icon a{
+    margin-right: 30px;
+}
